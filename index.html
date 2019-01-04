@@ -4,8 +4,6 @@
 	<title>Yoo Planet</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link href="https://cdnjs.cloudflare.com/ajax/libs/sanitize.css/2.0.0/sanitize.min.css" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
 </head>
 <body class="site-grid">
 
@@ -29,7 +27,7 @@
 		<header class="header">
 			<div class="header-inner">
 				<div class="logo">
-					<img src="logo.svg" alt="">
+					<img src="img/logo.svg" alt="">
 				</div>
 				<ul class="menu">
 					<li>
@@ -66,7 +64,7 @@
 	<div class="container-banner">
 		<div class="banner">
 			<div class="module shadow">
-				<img src="main.jpg" alt="">
+				<img src="img/planet.jpg" alt="">
 			</div>
 		</div>
 		<div class="sidebar-right">
@@ -154,14 +152,15 @@
 
 	<div class="container-footer">
 		<footer class="footer">
-			<p class="text-center">Copyright &copy; 2018 - Charlie Lodder</p>
+			<p class="text-center">Copyright &copy; 2019 - Charlie Lodder</p>
 		</footer>
 	</div>
 
 	<script>
 		// Lazy load CSS files
 		for (const css of [
-			'style.css',
+			'https://cdnjs.cloudflare.com/ajax/libs/10up-sanitize.css/8.0.0/sanitize.min.css',
+			'css/template.min.css',
 		]) {
 			const link = document.body.appendChild(document.createElement('link'));
 			link.rel = 'stylesheet';

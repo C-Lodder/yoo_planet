@@ -1,0 +1,12 @@
+# System Related Files #
+.DS_Store
+
+# Windows #
+Thumbs.db
+Desktop.ini
+
+# Node modules #
+node_modules/
+
+# Never ignore #
+!/.gitignore

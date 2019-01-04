@@ -23,6 +23,10 @@
 	--module-width: 270px;
 }
 
+img {
+    max-width: 100%;
+}
+
 *,
 *::before,
 *::after {

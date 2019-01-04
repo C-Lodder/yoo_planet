@@ -1,0 +1,34 @@
+/* Badge */
+
+.badge {
+	position: absolute;
+	top: 9px;
+	right: -18px;
+	width: 75px;
+	z-index: 1;
+	height: 0;
+	transform: rotate(45deg);
+	color: var(--white);
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	text-align: center;
+
+	&.badge-blue {
+		border-bottom: 20px solid var(--bluetext);
+		background: var(--bluetext);
+	}
+	&.badge-lightblue {
+		color: var(--black-off);
+		border-bottom: 20px solid var(--lightblue);
+		background: var(--lightblue);
+	}
+	&.badge-green {
+		color: var(--black-off);
+		border-bottom: 20px solid var(--green);
+		background: var(--green);
+	}
+	&.badge-red {
+		border-bottom: 20px solid var(--red);
+		background: var(--red);
+	}
+}

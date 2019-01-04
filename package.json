@@ -1,0 +1,49 @@
+{
+  "name": "yoo_planet",
+  "version": "0.0.1",
+  "description": "Recreation of Yootheme's Planet template using CSS grid",
+  "main": "build.js",
+  "scripts": {
+    "build": "node build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/C-Lodder/yoo_planet.git"
+  },
+  "author": "Charlie Lodder",
+  "license": "MIT",
+  "dependencies": {
+    "sanitize.css": "^8.0.0"
+  },
+  "devDependencies": {
+    "brotli-size": "0.0.3",
+    "cssnano": "^4.1.8",
+    "fs": "0.0.1-security",
+    "gzip-size": "^5.0.0",
+    "kleur": "^3.0.1",
+    "postcss": "7.0.7",
+    "postcss-cli": "6.1.0",
+    "postcss-custom-media": "^7.0.7",
+    "postcss-custom-selectors": "^5.1.2",
+    "postcss-discard-comments": "^4.0.1",
+    "postcss-easy-import": "^3.0.0",
+    "postcss-import": "^12.0.1",
+    "postcss-mixins": "^6.2.1",
+    "postcss-nested": "^4.1.1",
+    "postcss-nesting": "^7.0.0",
+    "postcss-preset-env": "^6.5.0",
+    "postcss-syntax": "^0.36.2",
+    "stylelint": "^9.9.0",
+    "stylelint-config-recommended": "^2.1.0"
+  },
+  "params": {
+    "browsers": [
+      "last 1 version, not last 1 ie version"
+    ],
+    "customProperties": "true",
+    "colorFunction": "true",
+    "customSelectors": "true",
+    "sourcemaps": "false",
+    "compress": "true"
+  }
+}

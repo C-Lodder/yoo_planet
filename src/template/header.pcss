@@ -1,0 +1,42 @@
+/* Header */
+
+.header {
+	position: relative;
+	width: 100%;
+	background: linear-gradient(to right, var(--blue) 0%, var(--lightblue) 50%, var(--blue) 100%);
+	border-radius: 8px;
+	box-shadow: 0px 0px 20px -1px var(--blue);
+	border: 1px solid transparent;
+	animation: slide 8s linear infinite, pulsate 16s ease-out infinite;
+	background-position: 0;
+}
+.header-inner {
+	min-height: 200px;
+	padding: 30px 40px;
+	background: var(--grey-100);
+	border-radius: 8px;
+}
+.logo img {
+	width: 60px;
+	margin-bottom: 15px;
+}
+
+@keyframes slide {
+    from {
+        background-position: 0;
+    }
+    to {
+        background-position: 1140px;
+    }
+}
+@keyframes pulsate {
+    0%   {
+		box-shadow: 0px 0px 20px -1px var(--blue);
+	}
+    50%  {
+		box-shadow: 0px 0px 25px -1px var(--blue);
+	}
+    100% {
+		box-shadow: 0px 0px 20px -1px var(--blue);
+	}
+}
