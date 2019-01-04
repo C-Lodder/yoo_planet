@@ -14,7 +14,6 @@ module.exports.default = [
   require('postcss-custom-media'),
   require('postcss-discard-comments')({ removeAll: true }),
   require('postcss-preset-env')({
-    stage: 0,
     autoprefixer: {
       grid: true,
       browsers: [
